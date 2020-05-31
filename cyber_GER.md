@@ -1,7 +1,6 @@
 **Cyber: Computing the knowledge of the Great Web**
 
-![1](https://user-images.githubusercontent.com/66184142/83349486-8a78fb00-a335-11ea-9a0c-3de569061015.png)
-
+![1](https://github.com/serejandmyself/cyber/blob/master/images/CYB.svg)
 
 **Abstrakt**
 
