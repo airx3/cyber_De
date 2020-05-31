@@ -1,10 +1,10 @@
-# Cyber: Computing the knowledge of the Great Web**
+# Cyber: Computing the knowledge of the Great Web
 
 <p align="center">
   <img src="https://github.com/serejandmyself/cyber/blob/master/images/graph.png" />
 </p>
 
-**Abstrakt**
+## Abstrakt
 
 Ein Konsens-Computer ermöglicht die Berechnung nachweislich relevanter
 Antworten ohne einen meinungsbildenden Vermittler wie zum Beispiel
@@ -30,7 +30,7 @@ Anwendungen entstehen, die es noch nie zuvor gegeben hat. Wir werden
 dieses Dokument stets mit unserer Vision von möglichen und potentiell
 machbaren Anwendungen erweitern.
 
-**Das große Internet**
+## Das große Internet
 
 Originalprotokolle des Internets, wie z.B: TCP/IP, DNS, URL und HTTP/S
 haben das Internet zu dem gemacht, was es nun ist. Wenn man all die
@@ -87,7 +87,7 @@ die Architektur der Blockchain, ohne Berechtigungen, den Aufbau einer
 Suchmaschine auf eine Art und Weise, die in der Vergangenheit
 unzugänglich ist.
 
-**Zum Problem der kontradiktorischen Beispiele**
+## Zum Problem der kontradiktorischen Beispiele
 
 Die [derzeitige Architektur der
 Suchmaschinen](https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6)
@@ -108,7 +108,7 @@ Stattdessen gibt er diese Macht der ganzen Welt. Ein lernfähiges,
 sybill-resistentes, agentengeneriertes Modell wird wahrscheinlich zu
 besser aussagekräftigen Ergebnissen führen.
 
-**Cyber-Protokoll**
+## Cyber-Protokoll
 
 Im Kern ist das Protokoll sehr minimalistisch und lässt sich mit den
 folgenden Schritten ausdrücken:
@@ -143,14 +143,16 @@ folgenden Schritten ausdrücken:
 Im Rest dieses Dokuments werden das Grundprinzip und die technischen
 Einzelheiten des vorgeschlagenen Protokolls erörtert.
 
-**Wissensgraph**
+## Wissensgraph
 
 Wir stellen einen Wissensgraphen als einen gewichteten Graphen von
 gerichteten Verbindungen zwischen Content-Adressen dar. Kurz gesagt,
 Inhaltskennungen, CIDs, IPFS-Hashes oder einfach - IPFS-Links. In diesem
 Dokument werden wir die oben genannten Begriffe als Synonyme verwenden.
 
-![](media/image2.png){width="6.3in" height="4.259027777777778in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/knowledge-graph.png" />
+</p>
 
 Content-Adressen sind im Wesentlichen Web3-Links. Anstatt das unklare
 und veränderliche zu verwenden:
@@ -195,7 +197,7 @@ Content-Adressen von
 Die Master bilden den Wissensgraphen durch Anwendung von
 [Cyberlinks](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyberlinks).
 
-**Cyberlinks**
+## Cyberlinks
 
 Um zu verstehen, wie Cyberlinks funktionieren, müssen wir den
 Unterschied zwischen einem URL-Link (alias ein Hyperlink) und einem
@@ -221,7 +223,9 @@ auf das Cosmos-White-Paper verweist. Das Konzept der Cyberlinks ist eine
 Konvention über die einfache Semantik eines Kommunikationsformats in
 jedem P2p-Netzwerk:
 
-![](media/image3.png){width="6.3in" height="1.0798611111111112in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/cyberlink.png" />
+</p>
 
 Wir sehen, dass ein Cyberlink eine Verbindung zwischen den beiden Links
 darstellt. Kinderleicht!
@@ -237,7 +241,9 @@ wenn zwei oder mehr Cyberlinks von einem Master bestehen, wobei der
 zweite Link im ersten Cyberlink gleich dem ersten Link im zweiten
 Cyberlink ist:
 
-![](media/image4.png){width="6.3in" height="1.0798611111111112in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/linkchain.png" />
+</p>
 
 Wenn Agenten die nativen IPFS-Links mit etwas semantisch reichhaltigerem
 erweitern, z.B. mit
@@ -258,13 +264,17 @@ nach dem
 gespeichert. Dies ermöglicht eine Authentifizierung zum [Nachweis der
 Relevanz](https://github.com/serejandmyself/cyber/blob/master/cyber.md#proof-of-relevance).
 
-![](media/image5.png){width="6.3in" height="2.8875in"}Mit Hilfe von
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/graph-tree.png" />
+</p>
+
+Mit Hilfe von
 Cyberlinks können wir die Relevanz von Subjekten und Objekten im
 [Wissensgraphen](https://github.com/serejandmyself/cyber/blob/master/cyber.md#knowledge-graph)
 berechnen. Aber wir brauchen einen
 [Konsensus-Computer](https://github.com/serejandmyself/cyber/blob/master/cyber.md#the-notion-of-a-consensus-computer).
 
-**Der Begriff des Konsensus-Computers**
+## Der Begriff des Konsensus-Computers
 
 Ein Konsensus-Computer ist eine abstrakte Rechenmaschine, die aus der
 Interaktion zwischen Agenten entsteht. Ein Konsensus-Computer verfügt
@@ -289,7 +299,9 @@ Daher werden wir nie in der Lage sein, einen idealen Konsenscomputer zu
 erreichen. Das CAP-Theorem und das Skalierbarkeits-Trilemma fügen dieser
 Aussage weitere Beweise hinzu.
 
-![](media/image6.png){width="6.3in" height="4.715972222222222in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/consensus-computer.png" />
+</p>
 
 Dennoch kann diese Theorie als Leistungsindikator für einen
 Konsensus-Computer dienen. Nachdem wir 6 Jahre lang in
@@ -316,7 +328,7 @@ Berechnung und Speicherung können im Falle einer grundlegenden
 leicht auf der Grundlage der Bandbreite vorhergesagt werden. Aber
 Bandbreite erfordert einen Begrenzungsmechanismus.
 
-**Relevanz-Maschine**
+## Relevanz-Maschine
 
 Wir definieren eine Relevanzmaschine als eine Maschine, die den Zustand
 eines
@@ -371,7 +383,9 @@ deren Rechenkapazitäten zu nutzen. Eine einfache Regel verhindert den
 Missbrauch durch die Agenten: ein Paar von Inhaltskennungen darf nur
 einmal durch eine Adresse im Cyberspace verlinkt werden.
 
-![](media/image7.png){width="6.3in" height="2.4347222222222222in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/algo1.png" />
+</p>
 
 Es gibt nur zwei Möglichkeiten, den effektiven Anteil (aktiver Anteil +
 gebundener Anteil) eines Kontos zu ändern: direkte Token-Transfers und
@@ -430,7 +444,7 @@ Verarbeitung in Einklang bringen kann. Die Go-Cyber-Implementierung der
 Relevanzmaschine basiert auf einem sehr einfachen Mechanismus, der
 Cyber\~Rank genannt wird.
 
-**cyber\~Rank**
+## cyber\~Rank
 
 Das Ranking beim Benutzen von einem
 [Konsensus-Computer](https://github.com/serejandmyself/cyber/blob/master/cyber.md#the-notion-of-a-consensus-computer)
@@ -483,7 +497,9 @@ resistent ist. Vorerst werden wir es Cyber-Rang nennen, bis etwas
 passenderes herauskommt. Der folgende Algorithmus wird auf seine
 Implementierung bei Genesis angewendet:
 
-![](media/image8.png){width="6.3in" height="5.564583333333333in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/algo2.png" />
+</p>
 
 Wir verstehen, dass der Ranking Mechanismus immer ein Ablenkungsmanöver
 bleiben wird. Aus diesem Grund verlassen wir uns auf die on-chain
@@ -548,7 +564,7 @@ aufzubauen.
 [Konsensus-Computer](https://github.com/serejandmyself/cyber/blob/master/cyber.md#the-notion-of-a-consensus-computer)
 müssen in der Lage sein, die Relevanz untereinander nachzuweisen.
 
-**Relevanznachweis**
+## Relevanznachweis
 
 Wir haben das Netzwerk unter der Annahme so entworfen als wenn es kein
 böswilliges Verhalten in Bezug auf die Suche gibt. Dies kann angenommen
@@ -565,7 +581,9 @@ wir keine negative Abstimmung benötigen.  Auf diese Weise entfernen wir
 die Subjektivität aus dem Protokoll und können den Relevanz Nachweis
 definieren.
 
-![](media/image5.png){width="6.3in" height="2.8875in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/graph-tree.png" />
+</p>
 
 Jede neue CID erhält eine Sequenznummer. Die Nummerierung beginnt bei
 null. Dann für jede neue CID um eins erhöht. Daher können wir den Rang
@@ -590,7 +608,7 @@ In Bezug auf eine gemeinsame
 wird der Merkle tree jede Runde berechnet und sein root-Hash an den ABCI
 weitergegeben.
 
-**Geschwindigkeit**
+## Geschwindigkeit
 
 Wir benötigen eine sofortige Bestätigung auf Anfragen, um den Nutzern
 das Gefühl einer herkömmlichen Webanwendung zu vermitteln. Dies ist eine
@@ -657,7 +675,10 @@ spezifischen
 [Wissensgraphen](https://github.com/serejandmyself/cyber/blob/master/cyber.md#knowledge-graph)
 vor.
 
-![](media/image9.png){width="6.3in" height="3.7465277777777777in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/network.png" />
+</p>
+
 
 Dies kann entweder auf einer eigenen Domänen spezifischen Suchmaschine
 mit [go-cyber](https://github.com/cybercongress/go-cyber) erfolgen
@@ -687,7 +708,9 @@ eine [.cyber](https://cyber.page/) Applikation besitzt um mit dem
 [cyber](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyber-protocol)
 Protokoll interagieren zu können.
 
-![](media/image10.jpeg){width="6.3in" height="3.9340277777777777in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/cyb.jpg" />
+</p>
 
 Als gutes Beispiel haben wir die [cyber.page](https://cyber.page/)
 erstellt. Es erlaubt Heroes, Masters und Evangelists mit dem Protokoll
@@ -702,7 +725,9 @@ verschiedene Arten von Inhalten erweitert werden können. Eventuell
 können sie sogar attraktiver als die von [Google](https://google.com/)
 werden.
 
-![](media/image11.png){width="6.3in" height="3.7465277777777777in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/architecture.png" />
+</p>
 
 Während der Implementation der vorgeschlagenen Architektur haben wir
 mindestens 3 Schlüssel Vorteile herausgefunden, die
@@ -721,7 +746,7 @@ konventionellen Ansatz.
 -   Such Ausschnitte müssten nicht statisch sein aber können interaktiv
     sein z.B. kann .cyber Ihre aktuelle Wallet Balance anzeigen 
 
-**Entwicklung**
+## Entwicklung
 
 Aufgrund technischen Beschränkungen müssen wir das Ökosystem mit zwei
 Token laufen lassen:
@@ -834,7 +859,7 @@ Protokolls ermöglichen ohne, dass
 [CYB](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyb)
 oder ATOM Tokens fallen werden. 
 
-**CYB**
+## CYB
 
 Proof-of-stake Systeme helfen bei der Erst-Distribution nicht. Wir
 glauben, dass wenn die Erst Distribution zielgerichtet,
@@ -856,7 +881,9 @@ cyber\~Congress, Game of Thrones in ETH und cyber\~Auction)
 100 000 000 000 000 CYB Tokens als Geschenk tokens für die Ethereum,
 Cosmos und Urbit Communitys
 
-![](media/image12.png){width="6.3in" height="2.89375in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/CYB.svg" />
+</p>
 
 Nach der Genesis, können CYB Token nur von Heroes basierend auf den
 staking und slashing Parametern erstellt werden. Der Basis Konsens ist,
@@ -872,7 +899,7 @@ der smart contract Funktion beginnt. Das startende Parameter der
 Inflation wird durch die Governance während des Game of Links
 definiert. 
 
-**THC**
+## THC
 
 Das Ziel eine Alternative zu einer [Google-like](https://google.com/)
 Struktur zu erstellen erfordert einen sehr großen Aufwand von
@@ -907,7 +934,9 @@ zugeschrieben
 150 000 000 000 000 THC tokens werden dem cyber\~Congress contract
 zugeschrieben
 
-![](media/image13.png){width="6.3in" height="2.884027777777778in"}
+<p align="center">
+  <img src="https://github.com/serejandmyself/cyber/blob/master/images/THC.svg" />
+</p>
 
 Alle Entscheidungen der cyber\~Foundation werden basierend auf den THC
 Voting Ergebnissen ausgeführt. Die folgenden Parameter werden
@@ -919,7 +948,7 @@ angewendet:
 
 -   Vote Dauer: 500 Stunden 
 
-**Geschenke**
+## Geschenke
 
 Wir wollen so vielen Akteuren wie möglich die Möglichkeit geben, den
 vorgeschlagenen Ansatz zu bewerten. Aber ohne eine solche Komplexität
@@ -949,7 +978,7 @@ vorgeschlagenen Blöcke berechnet, bevor diese Tatsache der
 Öffentlichkeit bekannt wurde. Wir wenden die quadratische Regel nicht
 auf Urbit-Aliens an.
 
-**Game of Links**
+## Game of Links
 
 Ein Spiel für Cosmos Hodler in ATOM. Teilnehmer senden ATOM und wandeln
 diese in CYB um. Umso mehr ATOM gesendet wird umso höher ist der Preis
@@ -980,7 +1009,7 @@ Tokens für das Finale. Ein detailliertes Dokument ([detailed
 document](https://cybercongress.ai/game-of-links/)) mit dem Regeln und
 Gewinnen für das Spiel wurde veröffentlicht.
 
-**Cyber\~Auction**
+## Cyber\~Auction
 
 Ein Spiel für Ethereum hodlers in ETH. Teilnehmer senden ETH und wandeln
 es so in THC um. Umso mehr ETH gesendet wird, umso höher ist der Preis
@@ -1028,7 +1057,7 @@ nach Beendigung cyber\~Auction, werden alle noch vorhandenen
 [CYB](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyb)
 vernichtet
 
-**Apps**
+## Apps
 
  Wir gehen davon aus, dass der Algorithmus standardmäßig kein qualitativ
 hochwertiges Wissen garantiert. Genau wie ein Neugeborenes muss es
@@ -1270,7 +1299,7 @@ ohnehin teurer als ihre transparente Alternative. 
 Dies ist sicherlich nicht die vollständige Liste aller möglichen
 Anwendungen, aber in der Tat eine sehr spannende.
 
-**Fazit**
+## Fazit
 
 Für die nachweisbare Kommunikation zwischen Konsensus-Computern haben
 wir ein Protokoll definiert und implementiert. Das Protokoll basiert auf
@@ -1402,7 +1431,7 @@ distribution](https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3a
 
 [.cyber](https://github.com/cybercongress/dot-cyber)
 
-**Danksagung**
+## Danksagung
 
 \@hleb-albau
 
