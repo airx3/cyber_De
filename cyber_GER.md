@@ -738,7 +738,7 @@ Token laufen lassen:
 und
 [CYB](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyb)
 
-[CYB](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyb)
+- [CYB](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyb)
 ist der ursprüngliche token des souveränen
 [cyber](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyber-protocol)
 Protokolls der von dem Tendermint Konsensus Algorithmus unterstützt
@@ -748,7 +748,7 @@ wird. Es hat drei verschiedene Hauptnutzen (1) Stacking für Konsensus,
 und (3) Ausdruck des Willens der Masters für die Berechnung des 
 cyber\~Rank.
 
-[THC](https://github.com/serejandmyself/cyber/blob/master/cyber.md#thc)
+- [THC](https://github.com/serejandmyself/cyber/blob/master/cyber.md#thc)
 (ausgesprochen: Tech) ist eine kreative cyber proto Substanz.
 [THC](https://github.com/serejandmyself/cyber/blob/master/cyber.md#thc)
 ist ein Ethereum ERC-20 kompatibler Token der die Fähigkeit hat Werte in
@@ -855,14 +855,14 @@ an Qualität und Größe zunehmen wird.
 Der Genesis Block von dem cyber Protokoll beinhaltet 1 000 000 000 000
 000 CYB (ein petacyb oder 1 PCYB) die wie folgt verteilt sind:
 
-750 000 000 000 000 CYB Tokens für die, die
+- 750 000 000 000 000 CYB Tokens für die, die
 [THC](https://github.com/serejandmyself/cyber/blob/master/cyber.md#thc)
 tokens bis zum Ende der cyber\~Auction staken (Teilnehmer des
 cyber\~Congress, Game of Thrones in ETH und cyber\~Auction)
 
-150 000 000 000 000 CYB Tokens für die Teilnehmer bei Game of Links
+- 150 000 000 000 000 CYB Tokens für die Teilnehmer bei Game of Links
 
-100 000 000 000 000 CYB Tokens als Geschenk tokens für die Ethereum,
+- 100 000 000 000 000 CYB Tokens als Geschenk tokens für die Ethereum,
 Cosmos und Urbit Communitys
 
 <p align="center">
@@ -912,10 +912,10 @@ sein.
 Vor der Genesis cyber\~Foundation hat 750 000 000 000 000 THC geminted
 (siebenhundertfünfzig billiarden) die sich wie folgt aufteilen:
 
-600 000 000 000 000 THC tokens werden dem cyber\~Auction contract
+- 600 000 000 000 000 THC tokens werden dem cyber\~Auction contract
 zugeschrieben
 
-150 000 000 000 000 THC tokens werden dem cyber\~Congress contract
+- 150 000 000 000 000 THC tokens werden dem cyber\~Congress contract
 zugeschrieben
 
 <p align="center">
@@ -1034,10 +1034,9 @@ der cyber\~Auction vernichtet. Die folgenden Regeln gelten für
 [CYB](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyb)
 Token bei den Verleihungsbedingungen
 
-cyber\~Congress wird seinen Anteil nicht nutzen und somit wird es ein
+- cyber\~Congress wird seinen Anteil nicht nutzen und somit wird es ein
 passiver Anteil bleiben bis er Verteilt wird
-
-nach Beendigung cyber\~Auction, werden alle noch vorhandenen
+- nach Beendigung cyber\~Auction, werden alle noch vorhandenen
 [CYB](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyb)
 vernichtet
 
@@ -1061,19 +1060,11 @@ anfänglichen
 zu erstellen und diesen zu pflegen. Der graph soll die am relevantesten
 Suchergebnisse liefern.
 
- Im Allgemeinen unterscheiden wir drei Arten von Anwendungen für
- [Wissensgraphs](https://github.com/serejandmyself/cyber/blob/master/cyber.md#knowledge-graph) 
+Im Allgemeinen unterscheiden wir drei Arten von Anwendungen für [Wissensgraphs](https://github.com/serejandmyself/cyber/blob/master/cyber.md#knowledge-graph) 
 
-Konsensus apps. Können nach Ermessen des
-[Konsensus-Computer](https://github.com/serejandmyself/cyber/blob/master/cyber.md#the-notion-of-a-consensus-computer)
-ausgeführt werden, indem intelligente Fähigkeiten hinzugefügt werden
-
-On-chain apps. Können vom
-[Konsensus-Computer](https://github.com/serejandmyself/cyber/blob/master/cyber.md#the-notion-of-a-consensus-computer)
-im Tausch mit gas ausgeführt werden
-
-Off-chain apps. Kann mithilfe des
-[Wissensgraph](https://github.com/serejandmyself/cyber/blob/master/cyber.md#knowledge-graph)
+- Konsensus apps. Können nach Ermessen des [Konsensus-Computer](https://github.com/serejandmyself/cyber/blob/master/cyber.md#the-notion-of-a-consensus-computer) ausgeführt werden, indem intelligente Fähigkeiten hinzugefügt werden
+- On-chain apps. Können vom [Konsensus-Computer](https://github.com/serejandmyself/cyber/blob/master/cyber.md#the-notion-of-a-consensus-computer) im Tausch mit gas ausgeführt werden
+- Off-chain apps. Kann mithilfe des [Wissensgraph](https://github.com/serejandmyself/cyber/blob/master/cyber.md#knowledge-graph)
 als Eingabe in einer Ausführungsumgebung implementiert werden
 
 Die folgende Liste von Apps konsolidiert die oben genannten Kategorien:
@@ -1112,10 +1103,6 @@ Ansatz gibt diese Macht den Entwicklern zurück. Entwickler können nun
 spezifische Semantik Kerne ansteuern und ihre Apps so indexieren wie sie
 es wünschen.
 
- 
-
- 
-
 Search actions. Das vorgeschlagene Design ermöglicht nativen Support für
 die Blockchain (und tangle-ähnlichen) bezogene Tätigkeit. Es ist trivial
 Anwendungen zu designen die (1) den Creators gehören (2) korrekte
@@ -1150,14 +1137,12 @@ Your address is ...
 Placing bids ...
 Waiting for incoming storage requests ...
 ````
-
 Suchwerkzeuge. Suchwerkzeuge innerhalb von CLI werden unweigerlich einen
 hart umkämpften Markt mit einem dedizierten semantischen Kern für
 Roboter schaffen.
 
 Autonome Roboter. Die Blockchain-Technologie ermöglicht die Erstellung
 von Geräten, die digitale Assets selbst verwalten können.
-
 
 `If a robot can store, earn, spend and invest - they can do everything you can do`
 
@@ -1251,7 +1236,7 @@ App die das Wetten auf Link Relevanz erlaubt kann eine einzigartige
 Quelle der Wahrheit für die Richtung der Sätze sein und die Agenten
 motivieren mehr Links einzureichen.
 
- Private cyberlinks. Datenschutz ist von grundlegender Bedeutung. Da wir
+Private cyberlinks. Datenschutz ist von grundlegender Bedeutung. Da wir
 uns dem Datenschutz verpflichtet fühlen ist das erreichen einer
 Implementation von privaten
 [cyberlinks](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyberlinks)
