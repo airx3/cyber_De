@@ -340,10 +340,8 @@ Eine Eigenschaft der Relevanzmaschine ist entscheidend. Sie muss
 induktiv schlussfolgernde Eigenschaften haben oder dem Blackbox-Prinzip
 folgen:
 
-Die Maschine sollte in der Lage sein, Vorhersagen ohne Wissen über die
-Objekte zu treffen zu können,
-
-außer wer, wann und was mit dem Cyberlink verbunden war
+`Die Maschine sollte in der Lage sein, Vorhersagen ohne Wissen über die
+Objekte zu treffen zu können, außer wer, wann und was mit dem Cyberlink verbunden war`
 
 Wenn wir davon ausgehen, dass ein
 [Konsensus-Computer](https://github.com/serejandmyself/cyber/blob/master/cyber.md#the-notion-of-a-consensus-computer)
@@ -397,7 +395,7 @@ Bandbreite von 0 zurück bis zur maximalen Bandbreite wiederherstellen
 kann. Ein Meister hat ein Maximum W proportional zu seinem effektiven
 Einsatz, der durch die folgende Formel bestimmt wird:
 
-AgentMaxW = EffectiveStake \* ErwünschteBandbreite
+`AgentMaxW = EffectiveStake \* ErwünschteBandbreite`
 
 Der Zeitraum \"AdjustPricePeriod\" fasst zusammen, wie viel W während
 des Zeitraums \"RecoveryPeriod\" im letzten Block ausgegeben wurde. Das
@@ -564,8 +562,9 @@ werden, da kein böswilliges Verhalten bei der Suche nach Antworten
 gefunden werden kann.  Dieser Ansatz reduziert die Angriffe auf die
 Oberfläche erheblich.
 
-Ranks are computed based on the fact that something was searched, thus
-linked, and as a result - affected the predictive model
+````bash
+Ranks are computed based on the fact that something was searched, thus linked, and as a result - affected the predictive model
+````
 
 Eine gute Analogie wird in der Quantenmechanik beobachtet in der die
 Beobachtung selbst das Verhalten beeinflusst. Das ist der Grund wieso
@@ -1140,32 +1139,24 @@ Command tools. Command-line tools können sich auf relevante und
 strukturierte Antworten von einer Suchmaschine verlassen. In der Praxis
 ist es möglich das folgende CLI tool zu implementieren:
 
-\>  go-cyber earn using 100 GB
+````bash
+>  go-cyber earn using 100 GB
 
 Enjoy the following predictions:
+- apt install go-filecoin:     0.001   BTC p/ month p/ GB
+- apt install siad:            0.0007  BTC p/ month p/ GB
+- apt install storjd:          0.0005 BTC p/ month p/ GB
 
-\- apt install go-filecoin: 0.001   BTC p/ month p/ GB
+According to the most desirable prediction, I decided to try `mine go-filecoin -limit 107374182400`
 
-\- apt install siad:        0.0007  BTC p/ month p/ GB
-
-\- apt install storjd:      0.0005 BTC p/ month p/ GB
-
-According to the most desirable prediction, I decided to try \`mine
-go-filecoin -limit 107374182400\`
-
-Git clone \...
-
+Git clone ...
 Building go-filecoin
-
 Starting go-filecoin
-
-Creating a wallet using \@xhipster seed
-
-Your address is \...
-
-Placing bids \...
-
-Waiting for incoming storage requests \...
+Creating a wallet using @xhipster seed
+Your address is ...
+Placing bids ...
+Waiting for incoming storage requests ...
+````
 
 Suchwerkzeuge. Suchwerkzeuge innerhalb von CLI werden unweigerlich einen
 hart umkämpften Markt mit einem dedizierten semantischen Kern für
@@ -1174,8 +1165,8 @@ Roboter schaffen.
 Autonome Roboter. Die Blockchain-Technologie ermöglicht die Erstellung
 von Geräten, die digitale Assets selbst verwalten können.
 
-If a robot can store, earn, spend and invest - they can do everything
-you can do 
+
+`If a robot can store, earn, spend and invest - they can do everything you can do`
 
 Was benötigt wird, ist ein einfaches, aber leistungsfähiges statisches
 reales Werkzeug mit der Fähigkeit, bestimmte Dinge zu finden
@@ -1334,107 +1325,50 @@ Umgebung autonom verstehen können.
 
 Hinweise
 
-[Scholarly context
-adrift](https://ipfs.io/ipfs/QmNhaUrhM7KcWzFYdBeyskoNyihrpHvUEBQnaddwPZigcN)
-
-[Brand-new
-stack](https://ipfs.io/ipfs/Qmf2rKkDPSsvdudwSmdDPbZuYae8XRV26c1wAFCCvg8Dhw)
-
-[Search engines information retrieval in
-practice](https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6)
-
-[Motivating game for adversarial example
-research](https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9)
-
-[An idea of a decentralized
-search](https://ipfs.io/ipfs/QmXNoGTWLQrcFRb66oS4HafpP1vcLKbVkJrQm4DVvihuoq)
-
-[IPFS](https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps)
-
-[DAT](https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR)
-
-[go-cyber](https://github.com/cybercongress/go-cyber)
-
-[cosmos-sdk](https://github.com/cosmos/cosmos-sdk)
-
-[CIDv1](https://github.com/multiformats/cid#cidv1)
-
-[cyber.page](http://cyber.page/)
-
-[DURA](https://github.com/cybercongress/cyb/blob/dev/docs/dura.md)
-
-[Colony](https://ipfs.io/ipfs/QmZo7eY5UdJYotf3Z9GNVBGLjkCnE1j2fMdW2PgGCmvGPj)
-
-[Truebit](https://ipfs.io/ipfs/QmTrxXp2xhB2zWGxhNoLgsztevqKLwpy5HwKjLjzFa7rnD)
-
-[Thermodynamics of
-predictions](https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb)
-
-[PageRank](http://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw)
-
-[RFC-6962](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG)
-
-[IBC
-protocol](https://ipfs.io/ipfs/QmSGbrGAPZtR6Q1jHHe8mmS3bLBehKmfp9ZYvrg5ycaZuk)
-
-[Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ)
-
-[Comparison of web3
-browsers](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md)
-
-[Cyb](https://cyb.ai/)
-
-[SpringRank](https://ipfs.io/ipfs/QmTJPJ55ePgR2MS1HoAtyqS1mteVLXUjAS4H8W97EEopxC)
-
-[Run validator in cyber
-protocol](https://cybercongress.ai/docs/go-cyber/run_validator/)
-
-[Top 10000 english
-words](https://github.com/first20hours/google-10000-english)
-
-[Multilingual neural machine
-translation](https://ipfs.io/ipfs/QmQUWBhDMfPKgFt3NfbxM1VU22oU8CRepUzGPBDtopwap1)
-
-[Foam](https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG)
-
-[Coda](https://ipfs.io/ipfs/Qmdje3AmtsfjX9edWAxo3LFhV9CTAXoUvwGR7wHJXnc2Gk)
-
-[Mimblewimble](https://ipfs.io/ipfs/Qmd99xmraYip9cVv8gRMy6Y97Bkij8qUYArGDME7CzFasg)
-
-[Tezos](https://ipfs.io/ipfs/QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS)
-
-[Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
-
-[Proof-of-history](https://ipfs.io/ipfs/QmbsKzizZVVVzPbZvg1qSsNMkwmA3MFufgXb3MFqbSnmPs)
-
-[IPLD](https://github.com/ipld)
-
-[cyber\~Congress
-organization](https://mainnet.aragon.org/#/cybercongress/0x4feb2bcc5907e7779130c093eef8fb44502c1330/)
-
-[cyber\~Congress in
-Cyber](https://cyber.page/network/cyber/contract/cyber1latzme6xf6s8tsrymuu6laf2ks2humqvdq39v8)
-
-[cyber\~Congress in
-Cosmos](https://www.mintscan.io/account/cosmos1latzme6xf6s8tsrymuu6laf2ks2humqv2tkd9a)
-
-[multisig for CYB
-distribution](https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3anklkj7pzgwjw47cp2u7j)
-
-[.cyber](https://github.com/cybercongress/dot-cyber)
+1. [Scholarly context adrift](https://ipfs.io/ipfs/QmNhaUrhM7KcWzFYdBeyskoNyihrpHvUEBQnaddwPZigcN)
+2. [Brand-new stack](https://ipfs.io/ipfs/Qmf2rKkDPSsvdudwSmdDPbZuYae8XRV26c1wAFCCvg8Dhw)
+3. [Search engines information retrieval in practice](https://ipfs.io/ipfs/QmeS4LjoL1iMNRGuyYSx78RAtubTT2bioSGnsvoaupcHR6)
+4. [Motivating game for adversarial example research](https://ipfs.io/ipfs/QmNrAFz34SLqkzhSg4wAYYJeokfJU5hBEpkT4hPRi226y9)
+5. [An idea of a decentralized search](https://ipfs.io/ipfs/QmXNoGTWLQrcFRb66oS4HafpP1vcLKbVkJrQm4DVvihuoq)
+6. [IPFS](https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps)
+7. [DAT](https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR)
+8. [go-cyber](https://github.com/cybercongress/go-cyber)
+9. [cosmos-sdk](https://github.com/cosmos/cosmos-sdk)
+10. [CIDv1](https://github.com/multiformats/cid#cidv1)
+11. [cyber.page](http://cyber.page)
+12. [DURA](https://github.com/cybercongress/cyb/blob/dev/docs/dura.md)
+13. [Colony](https://ipfs.io/ipfs/QmZo7eY5UdJYotf3Z9GNVBGLjkCnE1j2fMdW2PgGCmvGPj)
+14. [Truebit](https://ipfs.io/ipfs/QmTrxXp2xhB2zWGxhNoLgsztevqKLwpy5HwKjLjzFa7rnD)
+15. [Thermodynamics of predictions](https://ipfs.io/ipfs/QmP81EcuNDZHQutvdcDjbQEqiTYUzU315aYaTyrVj6gtJb)
+16. [PageRank](http://ipfs.io/ipfs/QmbuE2Pfcsiji1g9kzmmsCnptqPEn3BuN3BhnZHrPVsiVw)
+17. [RFC-6962](https://ipfs.io/ipfs/QmZpJLmc3T2L1FLUxzvU3P8MBCPe15fEmUyVS7Bz8ZKMhG)
+18. [IBC protocol](https://ipfs.io/ipfs/QmSGbrGAPZtR6Q1jHHe8mmS3bLBehKmfp9ZYvrg5ycaZuk)
+19. [Tendermint](https://ipfs.io/ipfs/QmaMtD7xDgghqgjN62zWZ5TBGFiEjGQtuZBjJ9sMh816KJ)
+20. [Comparison of web3 browsers](https://github.com/cybercongress/cyb/blob/master/docs/comparison.md)
+21. [Cyb](https://cyb.ai)
+22. [SpringRank](https://ipfs.io/ipfs/QmTJPJ55ePgR2MS1HoAtyqS1mteVLXUjAS4H8W97EEopxC)
+23. [Run validator in cyber protocol](https://cybercongress.ai/docs/go-cyber/run_validator/)
+24. [Top 10000 english words](https://github.com/first20hours/google-10000-english)
+25. [Multilingual neural machine translation](https://ipfs.io/ipfs/QmQUWBhDMfPKgFt3NfbxM1VU22oU8CRepUzGPBDtopwap1)
+26. [Foam](https://ipfs.io/ipfs/QmZYKGuLHf2h1mZrhiP2FzYsjj3tWt2LYduMCRbpgi5pKG)
+27. [Coda](https://ipfs.io/ipfs/Qmdje3AmtsfjX9edWAxo3LFhV9CTAXoUvwGR7wHJXnc2Gk)
+28. [Mimblewimble](https://ipfs.io/ipfs/Qmd99xmraYip9cVv8gRMy6Y97Bkij8qUYArGDME7CzFasg)
+29. [Tezos](https://ipfs.io/ipfs/QmdSQ1AGTizWjSRaVLJ8Bw9j1xi6CGLptNUcUodBwCkKNS)
+30. [Software 2.0](https://medium.com/@karpathy/software-2-0-a64152b37c35)
+31. [Proof-of-history](https://ipfs.io/ipfs/QmbsKzizZVVVzPbZvg1qSsNMkwmA3MFufgXb3MFqbSnmPs)
+32. [IPLD](https://github.com/ipld)
+33. [cyber\~Congress organization](https://mainnet.aragon.org/#/cybercongress/0x4feb2bcc5907e7779130c093eef8fb44502c1330/)
+34. [cyber~Congress in Cyber](https://cyber.page/network/cyber/contract/cyber1latzme6xf6s8tsrymuu6laf2ks2humqvdq39v8)
+35. [cyber~Congress in Cosmos](https://www.mintscan.io/account/cosmos1latzme6xf6s8tsrymuu6laf2ks2humqv2tkd9a)
+36. [multisig for CYB distribution](https://cyber.page/network/cyber/contract/cyber147drnke9676972jr3anklkj7pzgwjw47cp2u7j)
+37. [.cyber](https://github.com/cybercongress/dot-cyber)
 
 ## Danksagung
 
-\@hleb-albau
-
-\@arturalbov
-
-\@jaekwon
-
-\@ebuchman
-
-\@npopeka
-
-\@belya
-
-\@serejandmyself
+1. @hleb-albau
+2. @arturalbov
+3. @jaekwon
+4. @ebuchman
+5. @npopeka
+6. @belya
+7. @serejandmyself
