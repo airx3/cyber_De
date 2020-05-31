@@ -115,26 +115,19 @@ folgenden Schritten ausdrücken:
 
 1.  Berechnen der Genese des Cyber-Protokolls auf der Grundlage der
     definierten Verteilung
-
 2.  Definition des
     [Wissensgraphen](https://github.com/serejandmyself/cyber/blob/master/cyber.md#knowledge-graph)
-
 3.  Sammeln von Transaktionen mit einem
     [Konsensuscomputer](https://github.com/serejandmyself/cyber/blob/master/cyber.md#the-notion-of-a-consensus-computer)
-
 4.  Überprüfung der Gültigkeit der Signaturen
-
 5.  Überprüfung der
     [Bandbreitennutzung](https://github.com/serejandmyself/cyber/blob/master/cyber.md#relevance-machine)
-
 6.  Überprüfung ob die Signaturen, Bandbreitenbegrenzung und alle CID's
     gültig sind, anschließend Anwendung von Cyberlink und Transaktionen
-
 7.  Wenn die Signaturen, die Bandbreitenbegrenzung und CIDs alle gültig
     sind, wenden Sie
     [Cyberlinks](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyberlinks)
     und Transaktionen an
-
 8.  Berechnung des
     [Cyber-Ranks](https://github.com/serejandmyself/cyber/blob/master/cyber.md#cyberrank)
     für jede Runde für die CID's im
