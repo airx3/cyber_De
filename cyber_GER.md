@@ -1,4 +1,4 @@
-**Cyber: Computing the knowledge of the Great Web**
+# Cyber: Computing the knowledge of the Great Web**
 
 <p align="center">
   <img src="https://github.com/serejandmyself/cyber/blob/master/images/graph.png" />
