@@ -1,7 +1,8 @@
 **Cyber: Computing the knowledge of the Great Web**
 
+<p align="center">
 ![1](https://github.com/serejandmyself/cyber/blob/master/images/graph.png)
-
+</p>
 **Abstrakt**
 
 Ein Konsens-Computer ermöglicht die Berechnung nachweislich relevanter
