@@ -157,11 +157,11 @@ Dokument werden wir die oben genannten Begriffe als Synonyme verwenden.
 Content-Adressen sind im Wesentlichen Web3-Links. Anstatt das unklare
 und veränderliche zu verwenden:
 
-https://github.com/cosmos/cosmos/blob/master/WHITEPAPER.md
+`https://github.com/cosmos/cosmos/blob/master/WHITEPAPER.md`
 
 Benutzen wir das Objekt selbst.
 
-Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
+`Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH`
 
 Durch die Verwendung von Content-Adressen zum Aufbau des Wissensgraphen
 gewinnen wir [die so dringend
