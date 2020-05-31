@@ -208,11 +208,10 @@ einzigartigen Ansatz.
 Cyberlink ist ein Ansatz, um zwei Inhaltsadressen oder IPFS-Links
 semantisch zu verknüpfen:
 
-.md syntax:
-\[QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH\](Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH)
-
-.dura syntax:
-QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH.Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
+````bash
+.md syntax: [QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH](Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH)    
+.dura syntax: QmdvsvrVqdkzx8HnowpXGLi88tXZDsoNrGhGvPvHBQB6sH.Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH
+````
 
 Der obige Cyberlink bedeutet, dass die Darstellung des
 [Go-Cybers](https://github.com/cybercongress/go-cyber) während des
@@ -280,18 +279,13 @@ Interaktion zwischen Agenten entsteht. Ein Konsensus-Computer verfügt
 und Berechnung. Für die Interaktion mit Agenten benötigt ein Computer
 Bandbreite. Ein idealer Konsensus-Computer ist ein Computer, bei dem:
 
-die Summe aller Berechnungen und des den Individuen zur Verfügung
-stehenden Speichers
-
-ist gleich
-
-die Summe aller verifizierten Berechnungen und des Speichers des
-Konsensus-Rechners
+` die Summe aller Berechnungen und des den Individuen zur Verfügung stehenden Speichers` 
+` ist gleich` 
+` die Summe aller verifizierten Berechnungen und des Speichers des Konsensus-Rechners` 
 
 Wir wissen das:
 
-Verifizierungen von Berechnungen \< (Berechnungen + Verifizierungen von
-Berechnungen)
+` Verifizierungen von Berechnungen \< (Berechnungen + Verifizierungen von Berechnungen)` 
 
 Daher werden wir nie in der Lage sein, einen idealen Konsenscomputer zu
 erreichen. Das CAP-Theorem und das Skalierbarkeits-Trilemma fügen dieser
