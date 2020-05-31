@@ -164,11 +164,8 @@ Benutzen wir das Objekt selbst.
 `Qme4z71Zea9xaXScUi6pbsuTKCCNFp5TAv8W5tjdfH7yuH`
 
 Durch die Verwendung von Content-Adressen zum Aufbau des Wissensgraphen
-gewinnen wir [die so dringend
-benötigte](https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est)
-[IPFS](https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps)
--
-[wie](https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR)
+gewinnen wir [die so dringend benötigte](https://steemit.com/web3/@hipster/an-idea-of-decentralized-search-for-web3-ce860d61defe5est)
+[IPFS](https://ipfs.io/ipfs/QmV9tSDx9UiPeWExXEeH6aoDvmihvx6jD5eLb4jbTaKGps) -[wie (https://ipfs.io/ipfs/QmXHGmfo4sjdHVW2MAxczAfs44RCpSeva2an4QvkzqYgfR)
 die für eine Suchmaschine benötigten, mächtigen P2P-Protokolle:
 
 -   Mesh-Netzwerk zukunftssicher
