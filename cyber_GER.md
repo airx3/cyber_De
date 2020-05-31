@@ -1,7 +1,7 @@
 **Cyber: Computing the knowledge of the Great Web**
 
-![](media/image1.png){width="3.6430555555555557in"
-height="3.2270833333333333in"}
+![1](https://user-images.githubusercontent.com/66184142/83349486-8a78fb00-a335-11ea-9a0c-3de569061015.png)
+
 
 **Abstrakt**
 
