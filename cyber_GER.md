@@ -278,7 +278,7 @@ Bandbreite. Ein idealer Konsensus-Computer ist ein Computer, bei dem:
 
 Wir wissen das:
 
-` Verifizierungen von Berechnungen \< (Berechnungen + Verifizierungen von Berechnungen)` 
+` Verifizierungen von Berechnungen < (Berechnungen + Verifizierungen von Berechnungen)` 
 
 Daher werden wir nie in der Lage sein, einen idealen Konsenscomputer zu
 erreichen. Das CAP-Theorem und das Skalierbarkeits-Trilemma fügen dieser
