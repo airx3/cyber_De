@@ -1,6 +1,6 @@
 **Cyber: Computing the knowledge of the Great Web**
 
-![1](https://github.com/serejandmyself/cyber/blob/master/cyber.md)
+![1](https://github.com/serejandmyself/cyber/blob/master/images/graph.png)
 
 **Abstrakt**
 
